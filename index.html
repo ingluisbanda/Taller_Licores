@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LICORES</title>
+
+    <link rel="stylesheet" href="/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+<body class="color-black">
+
+<!--1. Una barra de navegacion con las siguientes secciones Wiskeys, Cervezas, 
+       Cocteles, Vinos-->
+
+    <nav class="navbar navbar-expand-lg bg-dark-blue navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand color-letter-tittle" href="#">LICO BLACK XPRESS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex align-items-center ms-auto">
+            <a class="nav-link active color-letter" href="#Whisky">Whiskys</a>
+            <a class="nav-link color-letter" href="#Cervezas">Cervezas</a>
+            <a class="nav-link color-letter" href="#Cocteles">Cocteles</a>
+            <a class="nav-link color-letter" href="#Vinos">Vinos</a>  
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!--2. Un banner con la Frase "La seleccion mas exquisita en el ambiente mas sofisticado" 
+       con un botón que diga Reservar ahora-->
+  <section class="pt-5" id="main-section">
+   <div class="img-banner">
+      <div class="carousel-caption h-100 d-flex justify-content-center align-items-center flex-column">
+          <h3 class="banner-tittle text-center fs-1">La seleccion mas exquisita en el ambiente mas sofisticado!!!</h3>
+          <a href="#" class="btn btn-sm btn-info btn-design">Reservar ahora</a>
+      </div>
+    </div>
+  </section>  
+
+<!-- 3. Cada elemento de la barra de navegacion debe contener una seccion 
+        con almenos 6 bebidas, cada bebida debe estar contenida en una 
+        tarjeta con el nombre, precio, descripción sin botones -->
+  
+    <section id="Whisky">
+
+    <!--1. Sección de encabezado de tarjetas-->  
+   
+      <div class="bg-drinks">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="img/whisky-logo.jpg" alt="Logo" width="44.22" height="39.3" class="d-inline-block align-text-top">
+          </a>  
+        </div>
+        <div class="tittle-drinks">
+          <p>Whiskys</p>
+        </div>  
+      </div>
+      
+
+    <!--1. Sección de tarjetas-->
+      <div class="drinks">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/buchanans-deluxe-12.png" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Buchanans Deluxe 12 Años Blended 750ml</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 143.000</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El Buchanans Deluxe es un whisky suave con sabores frutales, toques de naranja y 
+                    chocolate. Se recomienda servirlo en las rocas o con soda, adornado con piel de naranja. Cocteles más conocidos: 
+                    Bloody Mary Green, Breeze of Miami y Summer is Here. País: Escocia.</p></th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/buchanans-deluxe-12-1000ml.png" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+            
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Buchanans Deluxe 12 Años Blended 1000 ml</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 186.900</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El Buchanans Deluxe es un whisky suave con sabores frutales, toques de naranja y 
+                    chocolate. Se recomienda servirlo en las rocas o con soda, adornado con piel de naranja. Cocteles más conocidos: 
+                    Bloody Mary Green, Breeze of Miami y Summer is Here. País: Escocia.</p></th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+            
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/Oldparr-750ml.png" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+          
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Old Parr 12 Años Blended</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 124.110</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El Old Parr es un whisky que tiene un color dorado de sabor suave a melocotones, 
+                    frambuesa y fruta madura con una terminación limpia. Su aroma es ligero y fresco con toques a roble y hojas 
+                    verdes. Es una mezcla Premium que surge a partir de las maltas de Cranggamore y Glendullanen que se sienten 
+                    en su corazón. País: Escocia</p></th>
+                </tr>
+              </tbody>
+            </table>            
+
+          </div>
+        </div>
+        
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/buchanans-master-1000ml.jpg" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+          
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Buchanans Master Blended 1000 ml</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 200.600</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El Buchanans Master es un whisky de maltas seleccionadas en 
+                    su mejor momento de maduración, con sutil nota a chocolate y naranja. Perfecto para compartir con amigos. 
+                    Algunos de sus cocteles más famosos son: Bloody Mary Green, Breeze of Miami y Summer Bonfire. País: Escocia.</p></th>
+                </tr>
+              </tbody>
+            </table>            
+
+          </div>
+        </div>
+        
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/chivas-regal-700ml.png" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+          
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Chivas Regal 12 Años 700 ml</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 101.745</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El whisky Chivas Regal 12 años contiene los mejores whiskys de 
+                    malta y de grano. forman parte de esta mezcla distintiva encontrarás el puro de malta Strathisla y el puro de 
+                    grano Strathclyde; Esta mezcla suave y generosa balancea el estilo con la sustancia y la tradición con un toque 
+                    moderno, con notas de miel, avellana y caramelo. País: Escocia.</p></th>
+                </tr>
+              </tbody>
+            </table>            
+
+          </div>
+        </div>
+        
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="img/Jhonnie-walker.jpg" class="card-img-top border-img" alt="Buchanans12">
+          <div class="card-body border-card">
+          
+            <table class="tableD">
+              <tbody>
+                <tr class="tableD1">
+                  <th scope="row"><p class="card-text nombre">Whisky Johnnie Walker Black Label Blended 1000 ml</p></th>
+                </tr>
+                <tr class="tableD2">
+                  <th scope="row"><p class="card-text precio">Precio: <b>$ 162.400</b></p></th>
+                </tr>
+                <tr class="tableD3">
+                  <th scope="row"><p class="card-text descripcion">El Johnnie Walker es un whisky con carácter y sabor intenso y complejo
+                    con notas a frutos del bosque, vainilla y tierra ahumada. Su mezcla contiene whiskies de 4 lugares distintos de Escocia 
+                    madurados durante 12 años que le dan equilibrio. Es el whisky más vendido en el mundo con un sabor intenso y ahumado. 
+                    Es la mezcla perfecta creada hace más 100 años País: Escocia.</p></th>
+                </tr>
+              </tbody>
+            </table>            
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="Cervezas">
+
+      <!--1. Sección de encabezado de tarjetas-->  
+     
+        <div class="bg-drinks">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="img/Cervezas-logo.jpg" alt="Logo" width="44.22" height="39.3" class="d-inline-block align-text-top">
+            </a>  
+          </div>
+          <div class="tittle-drinks">
+            <p>Cervezas</p>
+          </div>  
+        </div>
+        
+  
+      <!--1. Sección de tarjetas-->
+        <div class="drinks">
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cervezas-logo.jpg" class="card-img-top border-img" alt="Coronita-extra">
+            <div class="card-body border-card">
+  
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Coronita Extra X6 210 ml</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 16.700</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">La Coronita es de tipo Lager Pilsner, clara y brillante, 
+                      de espuma blanca y consistente. Tiene notas afrutadas, de cuerpo medio, fresca, balanceada y muy fácil 
+                      de beber. En boca es dulce y recuerda al sabor del cereal. Su amargor es limpio y ligero.</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cerveza-Stella.jpg" class="card-img-top border-img" alt="Buchanans12">
+            <div class="card-body border-card">
+              
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Stella Artois X6 330 ml</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 25.000</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">La Stella Artois es una cerveza de tipo pale lager rubia que 
+                      tiene un color dorado brillante, con un amargor bajo, una espuma blanca de media persistencia, con aromas a 
+                      cereal, azúcar tostado y matices florales. Fresca con un final corto y agradable. País: Bélgica.</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+              
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cerveza-Club-Colombia.jpg" class="card-img-top border-img" alt="Club-Colombia">
+            <div class="card-body border-card">
+            
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Club Colombia Lata X6 330 ml</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 15.000</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">La cerveza Club Colombia es de tipo lager de color dorado, 
+                      elaborada con cebada malteada y malta de caramelo. Es una cerveza para las personas que disfruten de 
+                      experiencias perfectas. País: Colombia.</p></th>
+                  </tr>
+                </tbody>
+              </table>            
+  
+            </div>
+          </div>
+          
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cerveza-Aguila.jpg" class="card-img-top border-img" alt="Aguila-negra">
+            <div class="card-body border-card">
+            
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Aguila Lata X6 330 ml</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 13.000</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">La cerveza Aguila Original viene en lata por six pack. 
+                      Es una Lager de color dorado elaborada con malta, jarabe de maíz, lúpulos y azúcar. Tiene un cuerpo 
+                      suave. País: Colombia.</p></th>
+                  </tr>
+                </tbody>
+              </table>            
+  
+            </div>
+          </div>
+          
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cerveza-Budweiser.jpg" class="card-img-top border-img" alt="Budweiser-Lata">
+            <div class="card-body border-card">
+            
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Budweiser Lata X6 269 ml</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 12.000</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">La cerveza Budweiser es una cerveza tipo lager de color 
+                      dorado con notas aromáticas de malta y lúpulo. Su sabor fresco y equilibrado se da por sus notas 
+                      cítricas y afrutadas. País: Estados Unidos.</p></th>
+                  </tr>
+                </tbody>
+              </table>            
+  
+            </div>
+          </div>
+          
+          <div class="card border border-0" style="width: 18rem;">
+            <img src="img/Cerveza-BBC.jpg" class="card-img-top border-img" alt="Bbc-Cajica-Miel-Botella">
+            <div class="card-body border-card">
+            
+              <table class="tableD">
+                <tbody>
+                  <tr class="tableD1">
+                    <th scope="row"><p class="card-text nombre">Cerveza Bbc Cajica Miel Botella 330ml X4</p></th>
+                  </tr>
+                  <tr class="tableD2">
+                    <th scope="row"><p class="card-text precio">Precio: <b>$ 14.240</b></p></th>
+                  </tr>
+                  <tr class="tableD3">
+                    <th scope="row"><p class="card-text descripcion">Bbc Cajicá miel es una cerveza rubia, con una generosa 
+                      adición de miel de abejas y se adiciona a la cerveza durante su elaboración, suave y refrescante. 
+                      Perfectamente equilibrada en su sabor, ideal para acompañar carnes blancas, comidas con nueces y postres 
+                      dulces. País: Colombia.</p></th>
+                  </tr>
+                </tbody>
+              </table>            
+  
+            </div>
+          </div>
+  
+        </div>
+      </section>
+
+      <section id="Cocteles">
+
+        <!--1. Sección de encabezado de tarjetas-->  
+       
+          <div class="bg-drinks">
+            <div>
+              <a class="navbar-brand" href="#">
+                <img src="img/Cocteles-img.jpg" alt="Logo" width="44.22" height="39.3" class="d-inline-block align-text-top">
+              </a>  
+            </div>
+            <div class="tittle-drinks">
+              <p>Cocteles</p>
+            </div>  
+          </div>
+          
+    
+        <!--1. Sección de tarjetas-->
+          <div class="drinks">
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/jagermeirter-coctel.png" class="card-img-top border-img" alt="Jagermeister">
+              <div class="card-body border-card">
+    
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Pack Jagermeister + Licorera Dorada 700ml</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 99.300</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">El Jägermeister es un licor de hierbas endulzado, 
+                        pero con un dejo amargo. Es muy popular en Baja Sajonia en la ciudad de Wolfenbüttel (Alemania). 
+                        País: Alemania.</p></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/Ginger-Beer-coctel.png" class="card-img-top border-img" alt="Ginger-Beer">
+              <div class="card-body border-card">
+                
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Mezclador Mil 976 Ginger Beer X4</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 18.615</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">El mezclador Mil 976 Ginger Beer esta hecho a base 
+                        de jengibre, endulzado naturalmente con Stevia y el azúcar de las frutas. Es un ingrediente esencial 
+                        para cocteles y todo tipo licor. País: Colombia.</p></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+                
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/convier-coctel.png" class="card-img-top border-img" alt="Convier-Triple-Sec">
+              <div class="card-body border-card">
+              
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Licor Convier Triple Sec 750ml</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 61.800</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">El licor Convier triple sec es una base de extracto 
+                        natural de cáscaras de naranja, sin colorantes ni aditivos. Tiene consistencia y viscosidad. Es 
+                        versátil para elaborar todo tipo de cocteles. Para preparar: Margarita y Zombie. País: Colombia.</p></th>
+                    </tr>
+                  </tbody>
+                </table>            
+    
+              </div>
+            </div>
+            
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/Ocean-coctel.png" class="card-img-top border-img" alt="Agua-Tónica">
+              <div class="card-body border-card">
+              
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Agua Tónica Mil 976 Ocean X4 207ml</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 18.615</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">La agua tónica Mil 976 esta hecha a base de extracto 
+                        de quinina natural 100% colombiana endulzada naturalmente con stevia y azúcar de frutas. Es un 
+                        ingrediente esencial para cocteles y todo tipo licor. País: Colombia.</p></th>
+                    </tr>
+                  </tbody>
+                </table>            
+    
+              </div>
+            </div>
+            
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/Margarita-mixer-coctel.png" class="card-img-top border-img" alt="Margarita">
+              <div class="card-body border-card">
+              
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Base Coctel Master Of Mixes Margarita</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 21.900</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">La base de coctel margarita master de Master Of 
+                        Mixes viene por 1000 ml, es una mezcla auténtica de jugo de limón verde cosechado en la costa 
+                        de México, aceites esenciales cítricos usados ​​en triple sec y un toque de jarabe simple y jarabe 
+                        de agave puro. País: Estados Unidos.</p></th>
+                    </tr>
+                  </tbody>
+                </table>            
+    
+              </div>
+            </div>
+            
+            <div class="card border border-0" style="width: 18rem;">
+              <img src="img/piña-colada-coctel.png" class="card-img-top border-img" alt="Piña-Colada">
+              <div class="card-body border-card">
+              
+                <table class="tableD">
+                  <tbody>
+                    <tr class="tableD1">
+                      <th scope="row"><p class="card-text nombre">Base Coctel Finest Call Piña Colada 1000ml</p></th>
+                    </tr>
+                    <tr class="tableD2">
+                      <th scope="row"><p class="card-text precio">Precio: <b>$ 23.900</b></p></th>
+                    </tr>
+                    <tr class="tableD3">
+                      <th scope="row"><p class="card-text descripcion">La base coctel Finest Call de piña colada viene 
+                        por 1000 ml elaborado con crema de coco Bakers, 28% de jugo le da a la mezcla de piña colada de 
+                        Finest Call un sabor como hecho desde cero. Contiene carne y leche de coco para una textura 
+                        espesa y cremosa. País: Estados Unidos.</p></th>
+                    </tr>
+                  </tbody>
+                </table>            
+    
+              </div>
+            </div>
+    
+          </div>
+        </section>
+
+        <section id="Vinos">
+
+          <!--1. Sección de encabezado de tarjetas-->  
+         
+            <div class="bg-drinks">
+              <div>
+                <a class="navbar-brand" href="#">
+                  <img src="img/Vinos-seccion.png" alt="Logo" width="44.22" height="39.3" class="d-inline-block align-text-top">
+                </a>  
+              </div>
+              <div class="tittle-drinks">
+                <p>Vinos</p>
+              </div>  
+            </div>
+            
+      
+          <!--1. Sección de tarjetas-->
+            <div class="drinks">
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Vino-Carolina.png" class="card-img-top border-img" alt="Vino Tinto Santa Carolina">
+                <div class="card-body border-card">
+      
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Santa Carolina Assemblage 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 53.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino tinto Santa Carolina es un vino chileno 
+                          varietal y viene en botella de 750 ML. El tipo de uva es 80% Malbec y 20% Cabernet. ¡Disfruta 
+                          de un vino tinto todos los días! Debe consumirse a una temperatura de 16 a 18° C.</p></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Vino-Piccini-Memoro.png" class="card-img-top border-img" alt="Vino-Piccini-Memoro">
+                <div class="card-body border-card">
+                  
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Piccini Memoro Varietal 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 52.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino Piccini Memoro Varietal es un vino tinto 
+                          italiano que viene en botella de 750 ML. El tipo de uva es 40% primitivo 30% Montepulciano 20% 
+                          nero d’avola 10% merlot del Veneto ¡te acompañamos con una gran variedad de vinos 
+                          tintos italianos.</p></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+                  
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Cousiño-macul.png" class="card-img-top border-img" alt="Cousiño-Macul">
+                <div class="card-body border-card">
+                
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Cousiño Macul Varietal Merlot 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 52.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino tinto Cousiño Macul Varietal es un vino 
+                          chileno que viene por 750 ML. El tipo de uva es 100% Merlot. ¡Sorprende a tu familia con un vino 
+                          tinto chileno! Debe consumirse a una temperatura de 16 - 18 °C. </p></th>
+                      </tr>
+                    </tbody>
+                  </table>            
+      
+                </div>
+              </div>
+              
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Vino -Tinto-Las-Moras.png" class="card-img-top border-img" alt="Vino-Tinto-Las-Moras">
+                <div class="card-body border-card">
+                
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Las Moras Orgánico Malbec 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 55.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino Las Moras Orgánico es un vino tinto argentino viene 
+                          en botella de 750 ML. El tipo de uva es Malbec. ¡Un vino tinto Malbec es el complemento perfecto para tus 
+                          celebraciones! Debe consumirse a una temperatura de 16 a 18° C. </p></th>
+                      </tr>
+                    </tbody>
+                  </table>            
+      
+                </div>
+              </div>
+              
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Vino-Tinto-Entrecote-Varietal.png" class="card-img-top border-img" alt="Vino Tinto Entrecote Varietal">
+                <div class="card-body border-card">
+                
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Entrecote Varietal 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 56.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino Entrecote es un vino tinto francés de 750 ML. El 
+                          tipo de uva es una combinación de 40% Merlot, 30% Cabernet Sauvignon y 30% Syrah. ¡Un buen vino tinto 
+                          para una noche especial! Debe consumirse a una temperatura de 16 a 18° C. </p></th>
+                      </tr>
+                    </tbody>
+                  </table>            
+      
+                </div>
+              </div>
+              
+              <div class="card border border-0" style="width: 18rem;">
+                <img src="img/Vino-Tinto-Mayor-De-Castilla.png" class="card-img-top border-img" alt="Vino-Tinto-Mayor-De-Castilla">
+                <div class="card-body border-card">
+                
+                  <table class="tableD">
+                    <tbody>
+                      <tr class="tableD1">
+                        <th scope="row"><p class="card-text nombre">Vino Tinto Mayor De Castilla Roble Tempranillo 750ml</p></th>
+                      </tr>
+                      <tr class="tableD2">
+                        <th scope="row"><p class="card-text precio">Precio: <b>$ 56.900</b></p></th>
+                      </tr>
+                      <tr class="tableD3">
+                        <th scope="row"><p class="card-text descripcion">El vino tinto la Mayor de Castilla es un vino español que 
+                          viene en botella por 750 ML. El tipo de uva es 100% Tempranillo. ¡En Dislicores te acompañamos a celebrar 
+                          con un exquisito vino! Debe consumirse a una temperatura de 14 a 16° C. </p></th>
+                      </tr>
+                    </tbody>
+                  </table>            
+      
+                </div>
+              </div>
+      
+            </div>
+          </section>
+
+<!-- 4. debe tener un footer donde se anuncien sus redes sociales donde también haya un botón 
+        que me diga reservar ahora -->
+
+<section  id="footerlic">
+<footer class="bg-black text-white">
+<div class="container">
+ <!-- Creamos las filas y las columnas del footer p:padding, bg:Background secondary: Color gris pb: Padding bottom pt: padding-top --> 
+  <nav class="row p-5 pb-2">
+  <!-- LOGO-->  
+    <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center">
+      <img src="img/logo-licoreria.jpg" alt="Logo Licoreria" class="img-logo mr-2"></a>
+  
+  <!-- PRIMER MENU--> 
+  <ul class="col-3 list-unstyled">
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Nuestros Productos</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Club Licores</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Quienes Somos</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Trabaja con Nosotros</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Cotizaciones</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Pago Proveedores</a></li>
+  </ul> 
+<!-- SEGUNDO MENU text-uppercase: Mayusculas--> 
+  <ul class="col-3 list-unstyled">
+    <li class="font-weight-bold text-uppercase">Atención al Cliente</li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">3103255608</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">(061)9400050</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Preguntas Frecuentes</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Localizanos</a></li>
+    <li class="font-weight-bold"><a href="#" class="text-reset text-decoration-none">Informacion Legal</a></li>
+  </ul> 
+
+  <!--REDES SOCIALES-->
+
+  <ul class="col-3 list-unstyled">
+    <li class="font-weight-bold text-uppercase mb-4">Redes Sociales</li>
+    <li class="mb-4 d-flex justify-content-between align-items-center">
+      <!--FACEBOOK-->
+      <a href="#" class="text-reset"><img src="img/logo-facebook.png" alt="Facebook" width="44"></a>
+      <!--TWITTER-->
+      <a href="#" class="text-reset"><img src="img/logo-twitter.png" alt="Twitter" width="44"></a>
+      <!--INSTAGRAM-->
+      <a href="#" class="text-reset"><img src="img/logo-Instagram.png" alt="Instagram" width="44"</a>
+      <!--WHATSAPP-->
+      <a href="#" class="text-reset"><img src="img/logo-whatsapp.png" alt="Whapsapp" width="44"</a>
+      <!--YOUTUBE-->
+      <a href="#" class="text-reset"><img src="img/logo-youtube.png" alt="Youtube" width="44"</a>
+    </li>
+    <li class="font-weight-bold text-uppercase mb-4"><button type="button" class="btn btn-sm btn-info btn-design2">reservar ahora</button></li> 
+  </ul>
+
+  
+
+
+  
+  
+  <!-- Creamos el copyright-->  
+  <div class="col-xs-12 pt-4">
+  <p class="text-white text-center">copyright - All rights reserved © 2022</p>
+  </div>
+</nav>
+
+</div>
+</footer>
+</section>
+
+    <script src="bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
